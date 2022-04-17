@@ -12,7 +12,7 @@ int main()
 
 	int** matrix = createMatrix(10, 20);
 	print(matrix, 10, 20);
-	destroyMatrix(matrix, 10);
+	destroyMatrix(matrix);
 }
 
 
